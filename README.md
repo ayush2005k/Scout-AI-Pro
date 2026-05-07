@@ -1,5 +1,4 @@
 
-# Scout-AI-Pro
 
 # ⚽ Scout AI Pro
 
