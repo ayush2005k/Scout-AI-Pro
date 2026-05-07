@@ -1,7 +1,19 @@
 import { GoogleGenAI } from "@google/genai";
 import { Player } from "./types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+// Vite environment variable
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+
+// Safe initialization
+if (!apiKey) {
+console.error("Missing Gemini API Key");
+}
+
+const ai = new GoogleGenAI({
+apiKey: apiKey || "",
+});
+
+
 
 export async function getPlayerScoutingReport(player: Player) {
   const prompt = `
