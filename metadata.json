@@ -1,0 +1,6 @@
+{
+  "name": "Scout AI Pro",
+  "description": "Simple AI-powered player scouting and points prediction for Fantasy Premier League.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["ML", "Data Visualization", "Analytics"]
+}

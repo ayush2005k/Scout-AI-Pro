@@ -1,0 +1,30 @@
+[
+  {
+    "model": "Linear Regression (Baseline)",
+    "mae": 1.95,
+    "r2": 0.45,
+    "training_time": "1.2s",
+    "complexity": "Low"
+  },
+  {
+    "model": "Random Forest",
+    "mae": 1.45,
+    "r2": 0.72,
+    "training_time": "15.4s",
+    "complexity": "Medium"
+  },
+  {
+    "model": "XGBoost",
+    "mae": 1.15,
+    "r2": 0.84,
+    "training_time": "8.2s",
+    "complexity": "High"
+  },
+  {
+    "model": "LSTM (Time-Series)",
+    "mae": 1.08,
+    "r2": 0.88,
+    "training_time": "45.0s",
+    "complexity": "Very High"
+  }
+]
