@@ -1,6 +1,6 @@
 
 
-# ⚽ Scout AI Pro
+# ⚽ Scout AI
 
 Scout AI Pro is a Machine Learning-powered Fantasy Premier League analytics engine designed to predict player performance, generate confidence-based recommendations, and provide explainable football insights using Ensemble Learning and Explainable AI (XAI).
 
