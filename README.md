@@ -290,5 +290,5 @@ https://scoutaiproo.netlify.app/
 
 # 👨‍💻 Author
 
-Built for Machine Learning, Football Analytics, and Fantasy Premier League enthusiasts.
+Ayush Kumar Singh
 
